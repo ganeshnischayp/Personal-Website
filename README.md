@@ -1,5 +1,5 @@
-# ganeshnischayptest.github.io
-This is the link to my website -->>  http://ganeshnischayptest.github.io
+# ganeshnischayp.github.io
+This is the link to my website -->>  http://ganeshnischayp.github.io
 
 This is the personal website of Ganesh.P.Nischay
  This website is build from html, css, JavaScript.
