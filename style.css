@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Jura:300');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+   
+.intro {    
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #061161, #780206);
+    display: table;
+    top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-height: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10%;
+   -vendor-animation-iteration-count: infinite;
+   
+}
+
+.content h1 {
+    font-family: 'Jura', sans-serif;
+    font-size: 500%;
+    font-weight: 100;
+    color: whitesmoke;
+    line-height: 70%;
+     
+}
+
+.btn {
+    font-family: 'Josefin Slab', serif;
+    font-size: 135%;
+    font-weight: 400;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid white;
+    padding: 10px 20px;
+    border-radius: 9px;
+    transition: all 0.5s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.btn:hover {
+    background-color: black;
+    border: solid green 2px;
+}
+
+@media screen and (max-width:900px){
+    .content {
+        padding-bottom: 30%;
+    }
+    .content h1 {
+        font-size: 450%;
+    }
+    .btn {
+        font-size: 130%;
+        padding: 9px 17px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .content {
+        padding-bottom: 40%;
+    }
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+}
+@media screen and (max-width:400px){
+    .content {
+        padding-bottom: 30%;
+    }
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 6px 14px;
+    }
+}
